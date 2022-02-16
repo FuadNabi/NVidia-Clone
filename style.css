@@ -1,0 +1,11 @@
+.header-logo > img {
+    display: inline-block;
+    width: 100px;
+    height: 44px;
+    padding: 10px 0px;
+}
+
+.head-list > li {
+    display: inline-block;
+    padding: 10px 5px;
+}
