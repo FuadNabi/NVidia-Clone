@@ -1,11 +1,19 @@
 .header-logo > img {
     display: inline-block;
-    width: 100px;
-    height: 44px;
+    width: 110px;
     padding: 10px 0px;
 }
 
 .head-list > li {
     display: inline-block;
-    padding: 10px 5px;
+    padding: 0px 5px;
+}
+
+.header-cont {
+    height: 44px;
+    width: 100%;
+}
+
+.header-cont > li {
+    text-align: center;
 }
