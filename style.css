@@ -24,3 +24,18 @@
     text-align: center;
     padding: var(--page-padding);
 }
+
+.carousel-btn {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 5px !important;
+    background-color: #666;
+}
+
+.carousel-btn:focus {
+    background-color: #76b900;
+}
+
+.carousel-header {
+    position: relative;
+}
