@@ -37,5 +37,9 @@
 }
 
 .carousel-header {
-    position: relative;
+}
+
+.carousel-item > img {
+    height: 580px;
+    width: 130%;
 }
