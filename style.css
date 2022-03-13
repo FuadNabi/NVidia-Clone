@@ -41,5 +41,39 @@
 
 .carousel-item > img {
     height: 580px;
-    width: 130%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 56px;
+    color: #76b900;
+    font-weight: 300;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 53%;
+    bottom: 12.25rem;
+    left: 13%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: left;
+}
+
+p {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 300;
+    padding: 30px 0;
+}
+
+.carousel-link {
+    background-color: #76b900;
+    padding: 14px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
 }
