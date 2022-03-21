@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;1,300&display=swap');
 @import url(//db.onlinewebfonts.com/c/cf67b63a12a22d6fe21be02b8dfdf060?family=GeForce);
 
+
 .pp {
     padding: 0 20rem;
 }
@@ -160,7 +161,6 @@ p {
 }
 
 .banner-cont {
-    height: 190px;
     background-image: url(https://www.nvidia.com/content/dam/en-zz/Solutions/homepage/mfg/gtc22-spring-web-nv-com-blade-2560x200-d@2x.jpg);
     background-size: cover;
     background-position: center;
@@ -209,4 +209,58 @@ p {
 .banner-btn:hover {
     background-color: #76d300;
     color: #fff;
+}
+
+.main-cont {
+    padding-top: 60px;
+    background-color: #eee;
+}
+
+.main-cont > img {
+    height: 166px;
+    width: 295px;
+}
+
+.shop-cards {
+    padding-top: 15px;
+}
+
+.shop-h2 {
+    color: #76b900;
+    padding: 8px 0;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.shop-h4 {
+    color: #76b900;
+    padding: 4px 15px 0;
+    font-size: 18px;
+    line-height: 1.25em;
+    text-decoration: none;
+}
+
+.col {
+    width: 295px;
+    border-radius: 3px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    padding: 0;
+}
+
+.col:hover {
+    box-shadow: 0 0 30px rgba(33, 33, 33,.3);
+    transition: box-shadow 700ms;
+}
+
+.col > a {
+    text-decoration: none;
+}
+
+.shop-p {
+    padding: 10px 15px; 
+    color: #1a1a1a;
+    font-size: 14px;
+    line-height: 1.5em;
 }
