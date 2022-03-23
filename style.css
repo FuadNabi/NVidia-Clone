@@ -221,11 +221,15 @@ p {
     width: 295px;
 }
 
-.shop-cards {
+.shop-cont {
+    padding-bottom: 60px;
+}
+
+.main-cards {
     padding-top: 15px;
 }
 
-.shop-h2 {
+.card-h2 {
     color: #76b900;
     padding: 8px 0;
     font-size: 40px;
@@ -234,7 +238,7 @@ p {
     text-align: center;
 }
 
-.shop-h4 {
+.card-h4 {
     color: #76b900;
     padding: 4px 15px 0;
     font-size: 18px;
@@ -258,9 +262,13 @@ p {
     text-decoration: none;
 }
 
-.shop-p {
+.card-p {
     padding: 10px 15px; 
     color: #1a1a1a;
     font-size: 14px;
     line-height: 1.5em;
+}
+
+.game-cont {
+    padding-bottom: 60px;
 }
